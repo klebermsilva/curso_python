@@ -27,11 +27,12 @@ conv_altura = float(altura)
     #--------------------- Calculo ----------------------
 
 
-imc = conv_peso / ( conv_altura * 2)
+imc = conv_peso / ( conv_altura * conv_altura)
 nome_compl = nome + ' ' + sobrenome 
 
 #-------------------------------------------------------------------------
     # --------------------- Apresentando na tela ------------------
 
+print(f' Olá! {nome_compl}  seu imc é de {imc:.2f}') 
 
-print(f' Olá! {nome_compl}  seu imc é de {:.2imc}
+
