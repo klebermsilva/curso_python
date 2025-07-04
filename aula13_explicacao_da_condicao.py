@@ -2,13 +2,24 @@
 #--------------------
 # Se / Se não se / Se não
 
-condicao = input('Informe a condição: ')
+condicao1 = False
+condicao2 = False
+condicao3 = True
 
-if condicao == True:
+
+if condicao1:
     print('Condição verdadeira') 
-elif condicao == False:
+elif condicao2:
     print('Condição falsa')
-elif condicao == '"A" ou "a"':
+elif condicao3:
     print('Condição não condizente')
 else:
     print('Tente novamente')
+
+#-------------------------------------------
+
+if 10 == 10:
+    print('Outro if')
+
+
+print('Fora')
