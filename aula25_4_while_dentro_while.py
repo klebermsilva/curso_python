@@ -11,7 +11,10 @@ linha = 1
 while linha <= linhas:
     coluna = 1
     while coluna <= colunas:
-        print(f'{linha} {coluna}\n',) 
+        # imprime sem pular linha, adicionando espaços entre colunas
+        print(f'{coluna} {linha}', end='   ')
         coluna += 1
 
+    # depois de imprimir todas as colunas para esta linha, pula para a próxima
+    print()
     linha += 1
